@@ -1,0 +1,5 @@
+.affair_container {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 9vw 9vw 2vw ;
+}

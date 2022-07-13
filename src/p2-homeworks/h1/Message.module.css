@@ -14,8 +14,9 @@
     border-radius: 50px;
 }
 .message_container {
-    padding: 10px;
+    margin-bottom: 40px;
     margin-left: 30px;
+    padding: 10px;
     width: 20vw;
     background-color: rgba(0, 77, 255, 0.13);
     border-radius: 3px;
@@ -26,3 +27,19 @@
 .message_time {
     text-align: right;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen {*/
+/*}*/

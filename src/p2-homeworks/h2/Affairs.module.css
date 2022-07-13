@@ -1,3 +1,10 @@
-.someClass {
-
+.affairs_container {
+    margin: 30px 40px 0;
+    width: 20vw;
+}
+.filter_buttons_container {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 5vw 5vw 5vw 5vw;
+    background-color: pink;
 }
