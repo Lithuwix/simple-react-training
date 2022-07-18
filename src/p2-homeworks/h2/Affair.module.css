@@ -11,9 +11,9 @@
     }
 }
 
-@media (max-width: 630px ) {
+@media (max-width: 700px ) {
     .affair_container {
-        grid-template-columns: 18vw 17vw 5vw;
+        grid-template-columns: 32vw 33vw 5vw;
     }
 }
 
