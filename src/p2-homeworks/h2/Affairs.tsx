@@ -5,8 +5,8 @@ import s from './Affairs.module.css'
 
 type AffairsPropsType = {
     data: AffairsType
-    setFilter: (filter: FilterType)=>void
-    deleteAffairCallback: (_id: number)=> void
+    setFilter: (filter: FilterType) => void
+    deleteAffairCallback: (_id: number) => void
 }
 
 function Affairs(props: AffairsPropsType) {
@@ -32,10 +32,10 @@ function Affairs(props: AffairsPropsType) {
     }
 
     return (
-        <div className={s.affairs_container}>
-
-            {mappedAffairs}
-
+        <div className={s.affairs_withBtn_container}>
+            <div className={s.affairs_container}>
+                {mappedAffairs}
+            </div>
             <div className={s.filter_buttons_container}>
                 <button onClick={setAll}>All</button>
                 <button onClick={setHigh}>High</button>

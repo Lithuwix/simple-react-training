@@ -3,8 +3,6 @@ import s from './Message.module.css'
 import {messageDataType} from "./HW1";
 import avatar from './additional/avatar.jpg';
 
-
-
 function Message(props: messageDataType) {
     return (
        <div className={s.message}>

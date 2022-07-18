@@ -3,3 +3,17 @@
     display: grid;
     grid-template-columns: 9vw 9vw 2vw ;
 }
+
+
+@media (max-width: 1300px ) {
+    .affair_container {
+        grid-template-columns: 18vw 19vw 3vw;
+    }
+}
+
+@media (max-width: 630px ) {
+    .affair_container {
+        grid-template-columns: 18vw 17vw 5vw;
+    }
+}
+

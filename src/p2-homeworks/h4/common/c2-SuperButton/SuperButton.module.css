@@ -1,7 +1,14 @@
 .default {
-
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.23);
 }
 
 .red {
-    background: red;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+     background: rgba(253, 11, 11, 0.58);
 }
+

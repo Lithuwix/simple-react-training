@@ -10,7 +10,7 @@ export type messageDataType = {
 }
 
 export const messageData:messageDataType = {
-    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg', // I want to keep img local...
+    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg', // I want to keep img local... so I don't use this picture
     name: 'Toki',
     message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. ' +
         'Blanditiis maxime molestias nam necessitatibus porro' +
@@ -23,16 +23,12 @@ function HW1() {
         <div className={s.hw1_container}>
             <hr/>
             homeworks 1
-
-            {/*should work (должно работать)*/}
-
             <Message
                 avatar={messageData.avatar}
                 name={messageData.name}
                 message={messageData.message}
                 time={messageData.time}
             />
-
         </div>
     )
 }
