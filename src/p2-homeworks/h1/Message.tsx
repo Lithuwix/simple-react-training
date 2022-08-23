@@ -9,10 +9,13 @@ function Message(props: messageDataType) {
            <div className={s.ava_container}>
                <img className={s.ava_image} src={avatar} alt="avatar"/>
            </div>
-           <div className={s.message_container}>
-               <div className={s.message_name}>{props.name}</div>
-               <div className={s.message_body}>{props.message}</div>
-               <div className={s.message_time}>{props.time}</div>
+           <div className={s.angle_and_message_window}>
+               <div className={s.angle}></div>
+               <div className={s.message_container}>
+                   <div className={s.message_name}>{props.name}</div>
+                   <div className={s.message_body}>{props.message}</div>
+                   <div className={s.message_time}>{props.time}</div>
+               </div>
            </div>
        </div>
     )

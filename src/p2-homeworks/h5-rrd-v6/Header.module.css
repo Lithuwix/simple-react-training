@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+.header_navigation_container {
+    display: flex;
+    width: 300px;
+    transition-duration: 1000ms;
+    transform: translate(-260px);
+}
+.header_navigation_container:hover {
+    transition-duration: 1000ms;
+    transform: translate(0px);
+}
+.nav_link {
+    margin-right: 20px;
+}
+.navigation_icon {
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+.navigation_icon_img {
+    width: 30px;
+}

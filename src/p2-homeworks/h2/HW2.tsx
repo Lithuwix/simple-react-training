@@ -30,7 +30,7 @@ export const deleteAffair = (affairs: AffairsType, _id: number): AffairsType => 
 }
 
 function HW2() {
-    const [affairs, setAffairs] = useState<any>(defaultAffairs) // need to fix any
+    const [affairs, setAffairs] = useState<AffairsType>(defaultAffairs)
     const [filter, setFilter] = useState<FilterType>('all')
 
     const filteredAffairs = filterAffairs(affairs, filter)
@@ -40,8 +40,6 @@ function HW2() {
         <div>
             <hr/>
             homeworks 2
-
-            {/*should work (должно работать)*/}
             <Affairs
                 data={filteredAffairs}
                 setFilter={setFilter}

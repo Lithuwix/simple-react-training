@@ -6,15 +6,12 @@
 }
 .affairs_container {
     background-color: rgba(68, 169, 135, 0.35);
+    padding-bottom: 10px;
 }
-.filter_buttons_container {
-    border: 1px solid red;
-    margin-top: 15px;
-}
+
 .filter_buttons_container button {
     width: 25%;
 }
-
 
 @media (max-width: 1300px ) {
     .affairs_container {
