@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/simple-react-training/static/css/main.abeaf841.chunk.css",
-    "main.js": "/simple-react-training/static/js/main.10937442.chunk.js",
-    "main.js.map": "/simple-react-training/static/js/main.10937442.chunk.js.map",
+    "main.css": "/simple-react-training/static/css/main.0c3ef803.chunk.css",
+    "main.js": "/simple-react-training/static/js/main.18510704.chunk.js",
+    "main.js.map": "/simple-react-training/static/js/main.18510704.chunk.js.map",
     "runtime-main.js": "/simple-react-training/static/js/runtime-main.9ac7e8ce.js",
     "runtime-main.js.map": "/simple-react-training/static/js/runtime-main.9ac7e8ce.js.map",
-    "static/js/2.1a641962.chunk.js": "/simple-react-training/static/js/2.1a641962.chunk.js",
-    "static/js/2.1a641962.chunk.js.map": "/simple-react-training/static/js/2.1a641962.chunk.js.map",
+    "static/js/2.03d0e410.chunk.js": "/simple-react-training/static/js/2.03d0e410.chunk.js",
+    "static/js/2.03d0e410.chunk.js.map": "/simple-react-training/static/js/2.03d0e410.chunk.js.map",
     "index.html": "/simple-react-training/index.html",
-    "precache-manifest.4591b24c06f521054253f7f9f3811842.js": "/simple-react-training/precache-manifest.4591b24c06f521054253f7f9f3811842.js",
+    "precache-manifest.081b1dcd49f3d780bec3cea73f1d0101.js": "/simple-react-training/precache-manifest.081b1dcd49f3d780bec3cea73f1d0101.js",
     "service-worker.js": "/simple-react-training/service-worker.js",
-    "static/css/main.abeaf841.chunk.css.map": "/simple-react-training/static/css/main.abeaf841.chunk.css.map",
-    "static/js/2.1a641962.chunk.js.LICENSE.txt": "/simple-react-training/static/js/2.1a641962.chunk.js.LICENSE.txt",
+    "static/css/main.0c3ef803.chunk.css.map": "/simple-react-training/static/css/main.0c3ef803.chunk.css.map",
+    "static/js/2.03d0e410.chunk.js.LICENSE.txt": "/simple-react-training/static/js/2.03d0e410.chunk.js.LICENSE.txt",
     "static/media/avatar.jpg": "/simple-react-training/static/media/avatar.756cc49a.jpg",
     "static/media/b.svg": "/simple-react-training/static/media/b.b9053f81.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9ac7e8ce.js",
-    "static/js/2.1a641962.chunk.js",
-    "static/css/main.abeaf841.chunk.css",
-    "static/js/main.10937442.chunk.js"
+    "static/js/2.03d0e410.chunk.js",
+    "static/css/main.0c3ef803.chunk.css",
+    "static/js/main.18510704.chunk.js"
   ]
 }
