@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2285580ae234100fc9664650d9f872bf",
+    "revision": "3758c3ffedc172bd7cbf10b6c717dfcc",
     "url": "/simple-react-training/index.html"
   },
   {
-    "revision": "1c9d396cb0d49c6b65a0",
-    "url": "/simple-react-training/static/css/main.0c3ef803.chunk.css"
+    "revision": "98511f5edbe0a6f87c79",
+    "url": "/simple-react-training/static/css/main.39c49779.chunk.css"
   },
   {
-    "revision": "5f9cdd0b30858c0f0788",
-    "url": "/simple-react-training/static/js/2.03d0e410.chunk.js"
+    "revision": "13670b8b063b9541955d",
+    "url": "/simple-react-training/static/js/2.6ac93ead.chunk.js"
   },
   {
     "revision": "248fe9facfff898840212404b4cb88d9",
-    "url": "/simple-react-training/static/js/2.03d0e410.chunk.js.LICENSE.txt"
+    "url": "/simple-react-training/static/js/2.6ac93ead.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1c9d396cb0d49c6b65a0",
-    "url": "/simple-react-training/static/js/main.27d4c5fa.chunk.js"
+    "revision": "98511f5edbe0a6f87c79",
+    "url": "/simple-react-training/static/js/main.de878853.chunk.js"
   },
   {
     "revision": "5f791077e97f41f87a4f",
