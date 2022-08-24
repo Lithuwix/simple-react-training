@@ -5,14 +5,12 @@ type sortSettingsType = 'up' | 'down'
 export const homeWorkReducer = (state: UserType[], action: allActionsType): UserType[] => {
     switch (action.type) {
         case 'sort': {
-            let newState = [...state]
-            if (action.payload === 'up') {
-                return newState.sort((a, b) => b.age - a.age)
-            }
-            if (action.payload === 'down') {
-                return newState.sort((a, b) => a.age - b.age)
-            }
-            return state
+            const newState = [...state].sort((a, b)=> {
+                if (a.name > b.name) return 1
+                else if (a.name < b.name) return -1
+                else return 0
+            })
+            return action.payload === "up" ? newState : newState.reverse()
         }
         case 'check-age': {
             return state.filter((p)=> p.age > action.payload)
