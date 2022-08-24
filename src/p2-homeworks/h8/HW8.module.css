@@ -1,0 +1,26 @@
+.users_list_container {
+    border-radius: 5px;
+    width: 35vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 1vw;
+}
+.users_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw;
+}
+.buttons_container {
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+}
+
+@media (max-width: 800px) {
+    .users_list_container {
+        width: 80vw;
+    }
+    .buttons_container {
+        width: 80vw;
+    }
+}
